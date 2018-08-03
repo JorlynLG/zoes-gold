@@ -1,0 +1,122 @@
+/* General styling for the whole page*/
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: fantasy;
+}
+
+html {
+  font-size: 10px;
+  /*
+  background-image: url("images/hive3.jpg");
+  background-repeat: repeat-y;
+  background-size:100%;
+  background-attachment:fixed;
+  */
+}
+body {
+  width: 100%;
+  min-width: 800px;
+  margin: 0 auto;
+}
+
+/*Header section*/
+header{
+  background-image: url("images/hive3.jpg");
+  background-repeat: repeat-y;
+  background-size:100%;
+  background-attachment:fixed;
+}
+h1 {
+  text-transform: uppercase;
+  text-align: center;
+  color: black;
+  font-size: 7em;
+  line-height: 1.2;
+  margin: 0;
+  margin-top: 200px;
+  text-shadow: 0px 0px 75px white, 0 0 25px gold, 0 0 5px orange;
+}
+h2 {
+  text-transform: uppercase;
+  text-align: center;
+  color: black;
+  font-size: 2.75em;
+  line-height: 1.2;
+  margin: 0;
+  padding-bottom: 200px;
+  text-shadow: 0px 0px 75px white, 0 0 25px gold, 0 0 5px orange;
+}
+/*
+header img {
+  height: 110px;
+  align-items: top;
+  margin-top: 5px;
+}
+header div {
+  display: flex;
+  justify-content: center;
+}
+*/
+nav {
+  background-color: rgb(0,0,0,100%);
+  margin: 0;
+  padding: 0;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  overflow: hidden;
+}
+nav ul li {
+  flex: 1 200px;
+  text-align: center;
+}
+
+nav ul li a{
+  display: block;
+  font-size: 2em;
+  line-height: 50px;
+  color: white;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: white;
+  color: black;
+}
+/*The Read Time System portion*/
+.Data{
+  background-color: black;
+  margin: 0;
+  padding: 0;
+}
+h3 {
+  margin: 0;
+  padding-top: 10px;
+  text-align: center;
+  color: grey;
+  font-size: 3em;
+  line-height: 50px;
+  text-shadow: 3px 3px 2px black, 0 0 30px gold, 0 0 5px orange;
+}
+h4{
+  margin: 0;
+  padding: 0;
+  text-indent: 5em;
+  text-align: left;
+  color: white;
+  font-size: 2em;
+  line-height: 50px;
+}
+.Data div img {
+  width: 70em;
+  height: 300px;
+  object-fit: fill;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
